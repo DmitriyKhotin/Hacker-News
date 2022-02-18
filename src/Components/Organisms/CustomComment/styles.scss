@@ -1,0 +1,15 @@
+.comment {
+    width: 400px;
+    height: 30px;
+
+    &__nestedComments {
+        margin-top: 5px;
+        font-size: 20px;
+        color: #2a5885;
+
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}

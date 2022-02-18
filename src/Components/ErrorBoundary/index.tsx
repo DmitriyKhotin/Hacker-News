@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import { debugLog } from '../../utils/debugLog';
-import RepairImage from './RepairImage';
 
+import RepairImage from './RepairImage';
 import styles from './styles.scss';
 
 type ErrorState = {

@@ -1,0 +1,10 @@
+.mainPage {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+    &__newsContainer {
+        width: 600px; 
+        margin-right: 20px;
+    }
+}

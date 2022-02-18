@@ -72,10 +72,15 @@
   },
   "browserslist": "> 0.25%, not dead",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.7.2",
+    "axios": "^0.26.0",
     "classnames": "^2.3.1",
     "cross-env": "^7.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-loader-spinner": "^5.1.4",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^5.3.0"
-  }
+  },
+  "proxy": "http://localhost:3000"
 }
