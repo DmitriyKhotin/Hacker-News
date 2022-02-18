@@ -1,29 +1,25 @@
-# Card-list
-Simple SPA with cards list
-
-**Deploy**: [https://credits-cards.herokuapp.com/](https://credits-cards.herokuapp.com/)
-
-**View log through debug query:** [https://credits-cards.herokuapp.com/?debug=y](https://credits-cards.herokuapp.com/?debug=y)
+# Hacker-News
+Simple SPA with [Hacker News Api]()
 
 ## Installation
 
 **1. Download the project**
 
 ```bash
-git clone https://github.com/Dmitriymgtu/Card-list.git
+git clone https://github.com/Dmitriymgtu/Hacker-News.git
 ```
 **2. Go to the application folder**
 
 **3. Run application**
 
 ```bash
-npm dev
+npm start
 ```
 
 or
 
 ```bash
-yarn dev
+yarn start
 ```
 
 ### ❗If bank logos are not displayed, turn off adBlock
