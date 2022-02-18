@@ -1,20 +1,22 @@
 import React, { FC } from 'react';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import Loadable from 'react-loadable';
+
 import ErrorBoundary from '../../Components/ErrorBoundary';
 import './styles.scss';
+import CenterLoader from '../../Components/Molecules/CenterLoader';
 
 const LoadableMainPage = Loadable({
   loader: () => import('../../Pages/MainPage'),
   loading() {
-    return <div>...loading</div>;
+    return <CenterLoader />;
   },
 });
 
-const LoadableCardPage = Loadable({
+const LoadableNewsPage = Loadable({
   loader: () => import('../../Pages/NewsPage'),
   loading() {
-    return <div>...loading</div>;
+    return <CenterLoader />;
   },
 });
 
@@ -23,7 +25,7 @@ const Entry: FC = () => (
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={LoadableMainPage} />
-        <Route path="/news/:alias" exact component={LoadableCardPage} />
+        <Route path="/news/:id" exact component={LoadableNewsPage} />
         <Redirect to={'/'} />
       </Switch>
     </BrowserRouter>

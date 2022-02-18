@@ -1,0 +1,25 @@
+.newsPage {
+
+    &__news {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 120px;
+        width: 600px;
+        border: 2px solid silver;
+        border-radius: 10px;
+        padding: 6px 20px;
+        margin-right: 20px;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(45, 43, 156);
+
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}

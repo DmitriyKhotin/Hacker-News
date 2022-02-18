@@ -1,0 +1,16 @@
+.refetchButton {
+    padding: 6px 10px;
+    border: 2px solid silver;
+    border-radius: 6px;
+    background: none;
+    font-size: 20px;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+    
+      &:active {
+        box-shadow: 0 0 10px #8b8b8b;
+      }
+}
